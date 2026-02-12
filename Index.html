@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Valentine</title>
+</head>
+<body style="background:linear-gradient(pink, lightcoral); text-align:center; font-family:cursive;">
+  <h1>🌹❤️ Will you be my Valentine? ❤️🌹</h1>
+  <p style="font-size:22px;">I was hoping you'd say yes 🥰</p>
+
+  <button onclick="yesClick()" style="font-size:30px;padding:15px 30px;margin:20px;border-radius:20px;background:red;color:white;border:none;">
+    Yes 💕
+  </button>
+
+  <button onclick="noClick()" style="font-size:30px;padding:15px 30px;margin:20px;border-radius:20px;background:white;color:red;border:none;">
+    No 💔
+  </button>
+
+  <script>
+    function yesClick() {
+      document.body.innerHTML = "<h1>💖 Yay! You said YES! 💖</h1><p>You just made my day 😘🌹</p>";
+    }
+
+    function noClick() {
+      document.body.innerHTML = "<h1>😢 Oh nooo…</h1><p>My heart is broken 💔</p>";
+    }
+  </script>
+</body>
+</html>
